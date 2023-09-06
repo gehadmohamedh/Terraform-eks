@@ -38,7 +38,7 @@ module "eks" {
     one = {
       name = "node-group-1"
 
-      instance_types = ["t3.large"]
+      instance_types = [var.eks-ec2-size]
 
       min_size     = 1
       max_size     = 3
