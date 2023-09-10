@@ -11,7 +11,7 @@ data "aws_availability_zones" "available" {
 }
 
 locals {
-  cluster_name = "onboarding-eks"
+  cluster_name = "azure-eks"
 }
 
 module "eks" {
